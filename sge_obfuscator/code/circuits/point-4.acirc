@@ -1,0 +1,20 @@
+# TEST 0000 0
+# TEST 1000 1
+# TEST 0001 1
+# TEST 1101 1
+# TEST 1000 1
+0 input x0
+1 input x1
+2 input x2
+3 input x3
+4 input y0 2
+5 input y1 4
+6 input y2 8
+7 input y3 -0
+8 gate MUL 1 4
+9 gate MUL 2 5
+10 gate MUL 3 6
+11 gate ADD 0 8
+12 gate ADD 11 9
+13 gate ADD 12 10
+14 output ADD 13 7

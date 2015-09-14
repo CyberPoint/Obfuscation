@@ -1,2 +1,3 @@
 # Obfuscation
-Collaborative enhancement of obfuscation technology
+Collaborative enhancement of obfuscation technology.
+

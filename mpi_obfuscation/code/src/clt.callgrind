@@ -1,0 +1,253 @@
+events: Hits
+
+fl=(1) /build/buildd/eglibc-2.19/csu/libc-start.c
+fn=(1) __libc_start_main
+cfl=(2) /home/mroberts/obfuscation_main/code/src/clt_driver.cpp
+cfn=(2) main
+calls=23 18
+287 23
+
+fl=(3) /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S
+fn=(3) clone
+cfl=(4) /build/buildd/eglibc-2.19/nptl/pthread_create.c
+cfn=(4) start_thread
+calls=17 312
+111 17
+
+fl=(4)
+fn=(4)
+cfl=??
+cfn=(5) omp_in_final
+calls=17 0
+312 17
+
+fl=(2)
+fn=(2)
+cfl=(5) /home/mroberts/obfuscation_main/code/src/clt_mlm.cpp
+cfn=(6) clt_mlm_setup
+calls=23 116
+18 23
+
+fl=(5)
+fn=(6)
+cfl=??
+cfn=(5)
+calls=1 0
+116 1
+
+fl=(5)
+fn=(6)
+cfl=??
+cfn=(7) GOMP_parallel
+calls=22 0
+116 22
+
+fl=(5)
+fn=(6)
+122 39
+
+fl=??
+fn=(8) 0xffffffffffffffff
+cfl=(3)
+cfn=(3)
+calls=17 111
+0 17
+
+fl=??
+fn=(9) __gmpz_millerrabin
+cfl=??
+cfn=(10) __gmpn_rshift
+calls=1 0
+0 1
+
+fl=??
+fn=(11) __gmpn_mul_basecase
+cfl=??
+cfn=(11)
+calls=31 0
+0 31
+
+fl=??
+fn=(10)
+0 1
+
+fl=??
+fn=(12) __gmpz_powm
+cfl=??
+cfn=(13) __gmpn_powm
+calls=11 0
+0 11
+
+fl=??
+fn=(14) __gmpn_redc_1
+0 191
+
+fl=??
+fn=(15) __gmpz_powm_ui
+0 1
+
+fl=??
+fn=(16) __gmpz_nextprime
+0 4
+
+fl=??
+fn=(16)
+cfl=??
+cfn=(17) __gmpz_add_ui
+calls=1 0
+0 1
+
+fl=??
+fn=(7)
+cfl=(5)
+cfn=(18) clt_mlm_setup [clone ._omp_fn.0]
+calls=22 122
+0 22
+
+fl=??
+fn=(19) __gmpn_redc_n
+cfl=??
+cfn=(20) __gmpn_sub_n
+calls=1 0
+0 1
+
+fl=??
+fn=(14)
+cfl=??
+cfn=(14)
+calls=185 0
+0 185
+
+fl=??
+fn=(21) __gmpn_sqr_basecase
+cfl=??
+cfn=(21)
+calls=85 0
+0 85
+
+fl=??
+fn=(5)
+cfl=(5)
+cfn=(18)
+calls=17 122
+0 17
+
+fl=??
+fn=(12)
+cfl=??
+cfn=(14)
+calls=6 0
+0 6
+
+fl=??
+fn=(11)
+0 36
+
+fl=??
+fn=(22) __gmpn_add_nc
+cfl=??
+cfn=(23) __gmpn_add_n
+calls=2 0
+0 2
+
+fl=??
+fn=(12)
+cfl=??
+cfn=(21)
+calls=11 0
+0 11
+
+fl=??
+fn=(9)
+cfl=??
+cfn=(15)
+calls=1 0
+0 1
+
+fl=??
+fn=(5)
+cfl=??
+cfn=(24) omp_get_num_procs
+calls=1 0
+0 1
+
+fl=??
+fn=(16)
+cfl=??
+cfn=(9)
+calls=34 0
+0 34
+
+fl=??
+fn=(24)
+0 1
+
+fl=??
+fn=(13)
+0 9
+
+fl=??
+fn=(20)
+0 1
+
+fl=??
+fn=(13)
+cfl=??
+cfn=(19)
+calls=1 0
+0 1
+
+fl=??
+fn=(12)
+cfl=??
+cfn=(11)
+calls=4 0
+0 4
+
+fl=??
+fn=(13)
+cfl=??
+cfn=(11)
+calls=1 0
+0 1
+
+fl=??
+fn=(17)
+0 1
+
+fl=??
+fn=(23)
+cfl=??
+cfn=(23)
+calls=14 0
+0 14
+
+fl=??
+fn=(9)
+cfl=??
+cfn=(12)
+calls=32 0
+0 32
+
+fl=??
+fn=(8)
+cfl=??
+cfn=(25) _start
+calls=23 0
+0 23
+
+fl=??
+fn=(23)
+0 16
+
+fl=??
+fn=(25)
+cfl=(1)
+cfn=(1)
+calls=23 287
+0 23
+
+fl=??
+fn=(21)
+0 96
+

@@ -1,0 +1,6 @@
+: nins 1
+: depth 1
+# TEST 0 1
+# TEST 1 0
+0 input
+1 output NOT 0

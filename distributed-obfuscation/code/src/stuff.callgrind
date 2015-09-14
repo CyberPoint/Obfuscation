@@ -1,0 +1,368 @@
+events: Hits
+
+fl=(1) /build/buildd/eglibc-2.19/csu/libc-start.c
+fn=(1) __libc_start_main
+cfl=(2) /home/mroberts/obfuscation_main/code/src/clt_driver.cpp
+cfn=(2) main
+calls=3 145
+287 3
+
+fl=(3) /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S
+fn=(3) clone
+cfl=(4) /build/buildd/eglibc-2.19/nptl/pthread_create.c
+cfn=(4) start_thread
+calls=12 312
+111 12
+
+fl=(4)
+fn=(4)
+cfl=??
+cfn=(5) omp_in_final
+calls=12 0
+312 12
+
+fl=(5) /home/mroberts/obfuscation_main/code/gperftools-2.4/src/tcmalloc.cc
+fn=(6) tc_realloc
+1608 1
+
+fl=(2)
+fn=(7) try_encoding
+cfl=(6) /home/mroberts/obfuscation_main/code/src/clt_mlm.cpp
+cfn=(8) clt_mlm_encode
+calls=1 318
+69 1
+
+fl=(2)
+fn=(7)
+cfl=(6)
+cfn=(8)
+calls=1 318
+105 1
+
+fl=(2)
+fn=(7)
+cfl=(6)
+cfn=(8)
+calls=1 346
+113 1
+
+fl=(2)
+fn=(2)
+cfl=(2)
+cfn=(7)
+calls=1 105
+145 1
+
+fl=(2)
+fn=(2)
+cfl=(2)
+cfn=(7)
+calls=1 113
+145 1
+
+fl=(2)
+fn=(2)
+cfl=(2)
+cfn=(7)
+calls=1 69
+145 1
+
+fl=(6)
+fn=(8)
+cfl=??
+cfn=(5)
+calls=1 0
+318 1
+
+fl=(6)
+fn=(8)
+cfl=??
+cfn=(9) GOMP_parallel
+calls=1 0
+318 1
+
+fl=(6)
+fn=(8)
+324 1
+
+fl=(6)
+fn=(8)
+329 1
+
+fl=(6)
+fn=(8)
+329 41
+
+fl=(6)
+fn=(8)
+cfl=??
+cfn=(10) __gmpz_mod
+calls=1 0
+346 1
+
+fl=??
+fn=(11) 0xffffffffffffffff
+cfl=??
+cfn=(12) __gmpn_add_n
+calls=1 0
+0 1
+
+fl=??
+fn=(5)
+cfl=??
+cfn=(13) omp_get_num_procs
+calls=12 0
+0 12
+
+fl=??
+fn=(13)
+0 12
+
+fl=??
+fn=(14) 0x1ddf5a5ca0a884b0
+cfl=??
+cfn=(12)
+calls=1 0
+0 1
+
+fl=??
+fn=(15) __gmpn_pi1_bdiv_q_1
+0 2
+
+fl=??
+fn=(16) __gmpz_inits
+cfl=??
+cfn=(17) __gmpz_init
+calls=1 0
+0 1
+
+fl=??
+fn=(18) __gmpn_addlsh_n
+0 1
+
+fl=??
+fn=(19) 0x0000000004f57fff
+cfl=??
+cfn=(20) __gmpn_copyi
+calls=1 0
+0 1
+
+fl=??
+fn=(21) 0x0000000005015fff
+cfl=??
+cfn=(20)
+calls=2 0
+0 2
+
+fl=??
+fn=(22) __gmpn_mul_1
+0 41
+
+fl=??
+fn=(23) __gmpn_rsh1sub_n
+0 1
+
+fl=??
+fn=(24) __gmpn_mu_div_qr_choose_in
+cfl=??
+cfn=(25) __gmpn_preinv_mu_div_qr
+calls=1 0
+0 1
+
+fl=??
+fn=(25)
+cfl=??
+cfn=(26) __gmpn_mul_n
+calls=1 0
+0 1
+
+fl=??
+fn=(27) 0x00007ffffdc8088f
+cfl=(6)
+cfn=(28) clt_mlm_encode [clone ._omp_fn.4]
+calls=27 329
+0 27
+
+fl=??
+fn=(29) __gmpn_toom8h_mul
+cfl=??
+cfn=(30) __gmpn_toom44_mul
+calls=1 0
+0 1
+
+fl=??
+fn=(31) 0x0000000004ffdfff
+cfl=??
+cfn=(20)
+calls=2 0
+0 2
+
+fl=??
+fn=(26)
+cfl=??
+cfn=(29)
+calls=1 0
+0 1
+
+fl=??
+fn=(17)
+0 1
+
+fl=??
+fn=(32) __gmpn_sub_n
+0 9
+
+fl=??
+fn=(33) 0x0000000001d81ad7
+cfl=(6)
+cfn=(28)
+calls=14 329
+0 14
+
+fl=??
+fn=(34) __gmpz_tdiv_r
+cfl=??
+cfn=(35) __gmpn_tdiv_qr
+calls=1 0
+0 1
+
+fl=??
+fn=(36) __gmpz_realloc
+cfl=??
+cfn=(37) __gmp_default_reallocate
+calls=1 0
+0 1
+
+fl=??
+fn=(9)
+cfl=(6)
+cfn=(28)
+calls=1 329
+0 1
+
+fl=??
+fn=(20)
+0 20
+
+fl=??
+fn=(38) __gmpn_toom22_mul
+0 1
+
+fl=??
+fn=(39) 0x000000000508ffff
+cfl=??
+cfn=(20)
+calls=3 0
+0 3
+
+fl=??
+fn=(40) __gmpn_toom33_mul
+cfl=??
+cfn=(38)
+calls=1 0
+0 1
+
+fl=??
+fn=(41) 0x0000000004f87fff
+cfl=??
+cfn=(20)
+calls=2 0
+0 2
+
+fl=??
+fn=(35)
+cfl=??
+cfn=(24)
+calls=1 0
+0 1
+
+fl=??
+fn=(12)
+0 51
+
+fl=??
+fn=(42) _start
+cfl=(1)
+cfn=(1)
+calls=3 287
+0 3
+
+fl=??
+fn=(37)
+cfl=(5)
+cfn=(6)
+calls=1 1608
+0 1
+
+fl=??
+fn=(43) __gmpz_mul
+cfl=??
+cfn=(36)
+calls=1 0
+0 1
+
+fl=??
+fn=(44) __gmpn_sublsh1_n
+0 1
+
+fl=??
+fn=(45) __gmpn_lshift
+0 1
+
+fl=??
+fn=(11)
+cfl=(3)
+cfn=(3)
+calls=12 111
+0 12
+
+fl=??
+fn=(30)
+cfl=??
+cfn=(40)
+calls=1 0
+0 1
+
+fl=??
+fn=(46) __gmpn_lshiftc
+0 1
+
+fl=??
+fn=(10)
+cfl=??
+cfn=(34)
+calls=1 0
+0 1
+
+fl=??
+fn=(5)
+cfl=(6)
+cfn=(28)
+calls=1 324
+0 1
+
+fl=??
+fn=(47) 0x000000000505ffff
+cfl=??
+cfn=(20)
+calls=4 0
+0 4
+
+fl=??
+fn=(48) __gmpn_mul_basecase
+0 37
+
+fl=??
+fn=(11)
+cfl=??
+cfn=(42)
+calls=3 0
+0 3
+
+fl=??
+fn=(49) 0x00000000050a7fff
+cfl=??
+cfn=(20)
+calls=4 0
+0 4
+

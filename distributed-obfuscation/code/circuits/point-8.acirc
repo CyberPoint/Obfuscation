@@ -1,0 +1,37 @@
+# TEST 11010010 0
+# TEST 10110110 1
+# TEST 00000110 1
+# TEST 00111100 1
+# TEST 10100100 1
+# TEST 00100101 1
+0 input x0
+1 input x1
+2 input x2
+3 input x3
+4 input x4
+5 input x5
+6 input x6
+7 input x7
+8 input y0 2
+9 input y1 4
+10 input y2 8
+11 input y3 16
+12 input y4 32
+13 input y5 64
+14 input y6 128
+15 input y7 -210
+16 gate MUL 1 8
+17 gate MUL 2 9
+18 gate MUL 3 10
+19 gate MUL 4 11
+20 gate MUL 5 12
+21 gate MUL 6 13
+22 gate MUL 7 14
+23 gate ADD 0 16
+24 gate ADD 23 17
+25 gate ADD 24 18
+26 gate ADD 25 19
+27 gate ADD 26 20
+28 gate ADD 27 21
+29 gate ADD 28 22
+30 output ADD 29 15
